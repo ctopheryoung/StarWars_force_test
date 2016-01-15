@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Sandbox!</title>
+  </head>
+  <body>
+      <div class="container">
+        <h1>Test environment!</h1>
+        <p>Don't forget to wear production and don't fall in love.</p>
+        <form id="question">
+          <label for="choice">Are you willing to do <em>anything</em> to get what you want?:
+          </label>
+          <select id="choice">
+            <option value="dark">Yes, anything.</option>
+            <option value="light">No!</option>
+          </select>
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+
+        <div id="result">
+          <p>Then you belong on the <span id="whichSide"></span> side.</p>
+        </div>
+
+    </div>
+  </body>
+</html>
